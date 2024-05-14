@@ -1,6 +1,6 @@
 # landing_page_odin
 
-This project was made for the purpose of an exercise featured in "The Odin Project" Fundamentals Curriculum "Landing page".
+This project was made for the purpose of an exercise featured in "The Odin Project" Foundations Curriculum "Landing page".
 
 I do not own any of the images featured in this project. Down below you will find where I've found the images, including their authors:
 
