@@ -1,0 +1,195 @@
+/*general stylings*/
+
+.header, .topStuff{
+    background-color: #1f2937;
+}
+
+.quote{
+    background-color: #e5e7eb;
+}
+
+html{
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body, .header, .logo, ul, .topStuff > *{
+    margin: 0;
+    padding: 0;
+}
+
+/*general stylings*/
+
+/*header related*/
+
+.header{
+    color: white;
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    padding-left: 10px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/*header related*/
+
+/*topStuff related*/
+
+.topStuff{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 40px;
+    justify-content: space-evenly;
+    height: 250px;
+}
+
+.textAndButton{
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: column;
+    width: 300px;
+}
+
+.topStuff img{
+    flex: 0 1 auto;
+    width: 300px;
+    height: auto;
+}
+
+.textAndButton button{
+    width: 90px;
+    padding: 5px;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+/*topStuff related*/
+
+/*mid related*/
+
+.mid{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    width: 100px;
+    height: auto;
+    align-items: center;
+    
+}
+
+.card img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+/*mid related*/
+
+/*quote related*/
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+}
+
+.actualPhrase{
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author{
+    font-weight: bold;
+    font-size: 24px;
+    align-self: flex-end;
+}
+
+/*quote related*/
+
+/*bott-signIn related*/
+
+.bott-signIn{
+    margin: 60px;
+    padding: 50px;
+    background-color: #3882f6;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+
+.left{
+    flex: 1 1 auto;
+    color: white;
+}
+
+.left h3, .left p{
+    padding: 0;
+    margin: 0;
+}
+
+.bott-signIn button{
+    align-self: flex-end;
+    width: 90px;
+    padding: 5px;
+    background-color: #3882f6;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+/*bott-signIn related*/
+
+/*footer related*/
+
+.footer{
+    background-color: #1f2937;
+    text-align: center;
+    color: white;
+    margin: 0px;
+
+    padding: 30px;
+}
+
+.footer p{
+    margin: 0;
+}
+
+/*footer related*/
